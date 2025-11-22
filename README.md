@@ -83,7 +83,6 @@ During the hackathon, we utilized the **Ilifu Cloud Computing Infrastructure** f
 
 - **🖥️ High-performance computing** for deep learning training
 - **💾 Large-scale data storage** for satellite imagery datasets
-- **⚡ GPU acceleration** for faster model convergence
 - **🔧 Pre-configured environments** with all necessary dependencies
 
 The Ilifu platform provided the computational power needed to efficiently process, high-resolution satellite images and train multiple model architectures simultaneously.
