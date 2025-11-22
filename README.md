@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-This repository contains the winning solution for the **Hack4dev International Hackathon 2025** - a 4-day intensive competition (April 7-10, 2025) focused on developing efficient deep learning models for CubeSat image classification. Our team achieved **top-20 international ranking** among competitive global participants.
+This repository contains one of the winning solution for the **Hack4dev International Hackathon 2025** - a 4-day intensive competition (April 7-10, 2025) focused on developing efficient deep learning models for CubeSat image classification. Our team achieved **top-20 international ranking** among competitive global participants.
 
 ### 🎯 Competition Challenge
 The VERTECS mission aims to study extragalactic radiation using CubeSats with severe constraints:
@@ -12,14 +12,8 @@ The VERTECS mission aims to study extragalactic radiation using CubeSats with se
 
 **Objective:** Develop an optimized CNN model to classify satellite images into five categories with maximum efficiency and accuracy.
 
-## 📁 Repository Structure
-CubeSat_ImageClassification_Hack4dev/
-│
-├── 🔬 Model_Cnn.ipynb # Complete CNN implementation notebook
-├── 🎯 Model_Cnn.h5 # Optimized trained model (ready for deployment)
-└── 📄 Final_Competition_Report.pdf # Comprehensive solution documentation
 
-### File Details:
+### File Details in this Repository:
 
 - **`Model_Cnn.ipynb`** - Main Jupyter notebook containing:
   - Complete data preprocessing pipeline
@@ -98,10 +92,10 @@ The Ilifu platform provided the computational power needed to efficiently proces
 ### Class Distribution
 | Category | Training Samples | Test Samples | Description |
 |----------|------------------|--------------|-------------|
-| **Blurry** | 3,544 | 268 | Out-of-focus or motion-blurred images |
-| **Corrupt** | 1,070 | 506 | Data transmission errors or file corruption |
-| **Missing Data** | 2,021 | 896 | Incomplete image data packets |
-| **Noisy** | 3,582 | 443 | High sensor noise or interference |
-| **Priority** | 887 | 133 | High-quality images for scientific analysis |
+| **Blurry** | 3,544 | 887 | Out-of-focus or motion-blurred images |
+| **Corrupt** | 1,070 | 268 | Data transmission errors or file corruption |
+| **Missing Data** | 2,021 | 506 | Incomplete image data packets |
+| **Noisy** | 3,582 | 896 | High sensor noise or interference |
+| **Priority** | 5968 | 1492 | High-quality images for scientific analysis |
 
     
