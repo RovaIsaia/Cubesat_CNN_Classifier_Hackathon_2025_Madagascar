@@ -1,0 +1,107 @@
+# 🛰️ CubeSat Image Classification - Hack4dev Hackathon 2025
+
+## 📋 Project Overview
+
+This repository contains the winning solution for the **Hack4dev International Hackathon 2025** - a 4-day intensive competition (April 7-10, 2025) focused on developing efficient deep learning models for CubeSat image classification. Our team achieved **top-20 international ranking** among competitive global participants.
+
+### 🎯 Competition Challenge
+The VERTECS mission aims to study extragalactic radiation using CubeSats with severe constraints:
+- **Limited onboard memory** and computational power
+- **Restricted data transfer bandwidth**
+- **Need for real-time image prioritization** before transmission to Earth
+
+**Objective:** Develop an optimized CNN model to classify satellite images into five categories with maximum efficiency and accuracy.
+
+## 📁 Repository Structure
+CubeSat_ImageClassification_Hack4dev/
+│
+├── 🔬 Model_Cnn.ipynb # Complete CNN implementation notebook
+├── 🎯 Model_Cnn.h5 # Optimized trained model (ready for deployment)
+└── 📄 Final_Competition_Report.pdf # Comprehensive solution documentation
+
+### File Details:
+
+- **`Model_Cnn.ipynb`** - Main Jupyter notebook containing:
+  - Complete data preprocessing pipeline
+  - CNN model architecture and training code
+  - Performance evaluation and visualization
+  - Resource monitoring and optimization techniques
+
+- **`Model_Cnn.h5`** - Pre-trained optimized model:
+  - 99.9% test accuracy
+  - Only 0.05 MB file size
+  - Ready for immediate inference
+  - TensorFlow/Keras compatible
+
+- **`Final_Competition_Report.pdf`** - Detailed competition report:
+  - Methodology and architectural decisions
+  - Performance analysis and benchmarks
+  - Technical innovations and optimizations
+  - Deployment recommendations
+
+## 🏆 Achievement
+- **🏅 Top 20 International Ranking** in competitive evaluation
+- **⚡ 24x faster** inference than baseline model (11.01s vs 265.27s)
+- **📦 23x smaller model size** (0.05 MB vs 1.16 MB)
+- **🎯 99.9% accuracy** on test dataset across all classes
+
+## 🎪 Hackathon Context & Original Challenge
+
+### Competition Framework
+This project was developed during the **Hack4dev CubeSat Image Classification Challenge**, which provided a structured framework through five comprehensive notebooks:
+
+## 🔗 Important Links & Resources
+
+### 🎯 Official Competition Resources
+- **Official Hackathon Repository**: [Hack4Dev/CubeSat_ImageClassify](https://github.com/Hack4Dev/CubeSat_ImageClassify?tab=readme-ov-file)
+- **Research Paper**: [arXiv:2408.14865](https://arxiv.org/pdf/2408.14865)
+- **Pre-competition Tutorial Video**: [YouTube Guide](https://www.youtube.com/watch?v=3N9-eGfQiS0)
+- **Dataset Source**: [Zenodo Repository](https://zenodo.org/records/14598875)
+
+### 📚 Educational Materials
+- **Essential Pre-competition Watching**: [Tutorial Video](https://www.youtube.com/watch?v=3N9-eGfQiS0) - Prof. Thron's comprehensive guide to problem understanding and solution approaches
+- **Original Research**: [SPIE Proceedings](https://doi.org/10.1117/12.2684047) - "Data downlink prioritization using image classification on-board a 6U CubeSat"
+- **Technical Framework**: [Official Hackathon README](https://github.com/Hack4Dev/CubeSat_ImageClassify?tab=readme-ov-file) - Complete competition guidelines and notebook structure
+
+### 🛰️ Core Problem Statement
+Based on the original research work:
+> **"Data downlink prioritization using image classification on-board a 6U CubeSat"**  
+> *Keenan A. A. Chatar, Ezra Fielding, Kei Sano, and Kentaro Kitamura*  
+> Proc. SPIE 12729, Sensors, Systems, and Next-Generation Satellites XXVII (2023)
+
+**Challenge:** CubeSats face severe limitations in:
+- 📡 **Data transmission bandwidth** (slow downlink speeds)
+- 💾 **Onboard storage capacity**
+- ⚡ **Computational resources**
+- 🔋 **Power constraints**
+
+## ⚡ Cloud Computing Infrastructure
+
+### Ilifu Cloud Platform
+During the hackathon, we utilized the **Ilifu Cloud Computing Infrastructure** for all model training and data analysis:
+
+- **🖥️ High-performance computing** for deep learning training
+- **💾 Large-scale data storage** for satellite imagery datasets
+- **⚡ GPU acceleration** for faster model convergence
+- **🔧 Pre-configured environments** with all necessary dependencies
+
+The Ilifu platform provided the computational power needed to efficiently process 16,000+ high-resolution satellite images and train multiple model architectures simultaneously.
+
+## 📊 Dataset Information
+
+### Original Dataset
+- **Source:** [Zenodo CubeSat Dataset](https://zenodo.org/records/14598875)
+- **Size:** 16,000 images total
+- **Dimensions:** 3×512×512 (RGB channels, 512px resolution)
+- **Format:** NumPy arrays (.npy files)
+
+### Class Distribution
+| Category | Training Samples | Test Samples | Description |
+|----------|------------------|--------------|-------------|
+| **Blurry** | 3,544 | 268 | Out-of-focus or motion-blurred images |
+| **Corrupt** | 1,070 | 506 | Data transmission errors or file corruption |
+| **Missing Data** | 2,021 | 896 | Incomplete image data packets |
+| **Noisy** | 3,582 | 443 | High sensor noise or interference |
+| **Priority** | 887 | 133 | High-quality images for scientific analysis |
+
+    
