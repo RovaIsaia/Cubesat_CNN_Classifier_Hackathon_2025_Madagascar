@@ -57,7 +57,6 @@ This project was developed during the **Hack4dev CubeSat Image Classification Ch
 
 ### 🎯 Official Competition Resources
 - **Research Paper**: [arXiv:2408.14865](https://arxiv.org/pdf/2408.14865)
-- **Pre-competition Tutorial Video**: [YouTube Guide](https://www.youtube.com/watch?v=3N9-eGfQiS0)
 - **Dataset Source**: [Zenodo Repository](https://zenodo.org/records/14598875)
 
 ### 📚 Educational Materials
@@ -87,13 +86,13 @@ During the hackathon, we utilized the **Ilifu Cloud Computing Infrastructure** f
 - **⚡ GPU acceleration** for faster model convergence
 - **🔧 Pre-configured environments** with all necessary dependencies
 
-The Ilifu platform provided the computational power needed to efficiently process 16,000+ high-resolution satellite images and train multiple model architectures simultaneously.
+The Ilifu platform provided the computational power needed to efficiently process, high-resolution satellite images and train multiple model architectures simultaneously.
 
 ## 📊 Dataset Information
 
 ### Original Dataset
 - **Source:** [Zenodo CubeSat Dataset](https://zenodo.org/records/14598875)
-- **Size:** 16,000 images total
+- **Size:** 20,234 images total
 - **Dimensions:** 3×512×512 (RGB channels, 512px resolution)
 - **Format:** NumPy arrays (.npy files)
 
