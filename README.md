@@ -44,7 +44,7 @@ The VERTECS mission aims to study extragalactic radiation using CubeSats with se
 ### Competition Framework
 This project was developed during the **Hack4dev CubeSat Image Classification Challenge**, which provided a structured framework through five comprehensive notebooks:
 
-#### 📓 Official Hackathon Notebooks:
+#### Official Hackathon Notebooks:
 [**Official Hackathon Repository**](https://github.com/Hack4Dev/CubeSat_ImageClassify?tab=readme-ov-file)
 
 1. **Notebook 1**: Introduction to the problem and hackathon overview
