@@ -18,20 +18,17 @@ The VERTECS mission aims to study extragalactic radiation using CubeSats with se
 - **`Model_Cnn.ipynb`** - Main Jupyter notebook containing:
   - Complete data preprocessing pipeline
   - CNN model architecture and training code
-  - Performance evaluation and visualization
-  - Resource monitoring and optimization techniques
+  - Evaluation and visualization
+  - Optimization techniques
 
 - **`Model_Cnn.h5`** - Pre-trained optimized model:
   - 99.9% test accuracy
   - Only 0.05 MB file size
-  - Ready for immediate inference
-  - TensorFlow/Keras compatible
 
 - **`Final_Competition_Report.pdf`** - Detailed competition report:
   - Methodology and architectural decisions
   - Performance analysis and benchmarks
   - Technical innovations and optimizations
-  - Deployment recommendations
 
 ## Achievement
 - **Top 20 International Ranking** in competitive evaluation
@@ -42,7 +39,7 @@ The VERTECS mission aims to study extragalactic radiation using CubeSats with se
 ## Hackathon Context & Original Challenge
 
 ### Competition Framework
-This project was developed during the **Hack4dev CubeSat Image Classification Challenge**, which provided a structured framework through five comprehensive notebooks:
+This project was developed during the **Hack4dev VERTECS Image Classification Challenge**, which provided a structured framework through five comprehensive notebooks:
 
 #### Official Hackathon Notebooks:
 [**Official Hackathon Repository**](https://github.com/Hack4Dev/CubeSat_ImageClassify?tab=readme-ov-file)
@@ -71,7 +68,7 @@ Based on the original research work:
 > Proc. SPIE 12729, Sensors, Systems, and Next-Generation Satellites XXVII (2023)
 
 **Challenge:** CubeSats face severe limitations in:
--  **Data transmission bandwidth** (slow downlink speeds)
+-  **Data transmission bandwidth**
 -  **Onboard storage capacity**
 -  **Computational resources**
 -  **Power constraints**
@@ -92,7 +89,7 @@ The Ilifu platform provided the computational power needed to efficiently proces
 ### Original Dataset
 - **Source:** [Zenodo CubeSat Dataset](https://zenodo.org/records/14598875)
 - **Size:** 20,234 images total
-- **Dimensions:** 3×512×512 (RGB channels, 512px resolution)
+- **Dimensions:** 512×512x3
 - **Format:** NumPy arrays (.npy files)
 
 ### Class Distribution
